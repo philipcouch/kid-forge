@@ -20,6 +20,9 @@ projects:
     description: Cardiac imaging cohort (synthetic). Small workspaces only.
     image: quay.io/jupyter/minimal-notebook:2026-08-10
     sizes: [small]
+    internetAllowlist:
+      - pypi.org
+      - files.pythonhosted.org
     quota:
       cpu: "2"
       memory: 3Gi
